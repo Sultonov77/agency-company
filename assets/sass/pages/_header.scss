@@ -1,0 +1,38 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 90px;
+}
+.header__left{
+    img{
+        padding: 16px 24px;
+    }
+}
+.header__center {
+  ul {
+    display: flex;
+    column-gap: 30px;
+    margin-right: 50px;
+    margin-top: 35px;
+    a{ 
+        color: rgb(243, 233, 233);
+        font-family: Barlow;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 150%;
+    }
+      }
+}
+.Contact{
+padding: 16px 24px;
+align-items: center;
+border-radius: 8px;
+background: var(--green-50, #9EFF00);
+color: var(--grey-15, #262626);
+font-family: Barlow;
+font-size: 18px;
+font-style: normal;
+font-weight: 500;
+line-height: 150%; 
+}

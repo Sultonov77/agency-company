@@ -1,0 +1,38 @@
+.hero {
+  text-align: center;
+  margin-left: 30px;
+  border: 1px solid var(--grey-15, #262626);
+  background: linear-gradient(
+      0deg,
+      rgba(172, 255, 36, 0.2) 0%,
+      rgba(172, 255, 36, 0.2) 100%
+    ),
+    url(<path-to-image>), lightgray 0% 0% / 100px 100px repeat,
+    url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background-blend-mode: color, normal, overlay;
+  display: flex;
+  padding: 120px 300px;
+  flex-direction: column;
+  align-items: center;
+  gap: 14px;
+  align-self: stretch;
+}
+.design {
+  color: var(--absolute-white, #fff);
+  font-family: Barlow;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  margin-right: 950px;
+}
+.text {
+  color: var(--grey-90, #e6e6e6);
+  font-family: Barlow;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 4000;
+  line-height: 150%;
+  letter-spacing: -0.108px;
+  justify-content: left;
+}
